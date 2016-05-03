@@ -83,7 +83,7 @@ print(word)
 ```
 This is the error:
 
-```python.traceback
+```python
 SyntaxError: Non-ASCII character '\xc3' in file my_script.py
 on line 1, but no encoding declared;
 see http://python.org/dev/peps/pep-0263/ for details
