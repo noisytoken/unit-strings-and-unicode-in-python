@@ -2,7 +2,7 @@
 
 **IMPORTANT: These assignments will be evaluated using Python 2**
 
-For the following assignments you'll have to implement X functions:
+For this assignment you'll have to implement the following functions:
 
 #### utf8_encode
 

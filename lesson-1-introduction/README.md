@@ -1,4 +1,4 @@
-# Strings and Unicode in Python
+# Introduction
 
 Dealing with text starts like an easy task. You can create string literals, read and write them to disk, and show them to your user with a simple `print` statement. But once you are past the simple tasks and you need to start working with advanced use cases, strings, and text handling in general, quickly becomes a complicated subject 😨.
 
