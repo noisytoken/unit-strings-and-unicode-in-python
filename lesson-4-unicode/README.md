@@ -38,10 +38,11 @@ We've given in this lesson a few examples of unicode and Python. Now it's time t
 
 The first big difference resides in the data types used by both versions: Python 2 has `str` and `unicode`, and Python 3 has `str` and `bytes`. Don't worry, they're equivalent, but sometimes they create confusion. As a general rule, there will always be a type for _unicode strings_, and a type for _bytes strings_. Python 2's `unicode` type is, of course, the type for unicode strings. In Python 3, the type to express unicode strings is `str`. So we could say that Python 3 renamed Python 2's `unicode` as `str`. In a similar fashion, Python 2's `str` express "byte" strings, and it was renamed as `bytes` in Python 3. Here's a summary:
 
-  <p></p>        | Python 2 type |  Python 3 type |
----------------- | ------------- | -------------- |
-Unicode strings  |   `unicode`   |      `str`     |
-Bytes strings    |   `str`       |      `bytes`   |
+
+| <p></p>	        | Python 2 type |  Python 3 type |
+|---------------- | ------------- | -------------- |
+| Unicode strings |   `unicode`   |      `str`     |
+| Bytes strings   |   `str`       |      `bytes`   |
 
 Other difference between version arises when trying to create string literals. In Python 2, a simple string literal like `"hello world"` will create a `str`, which is a byte string type. To create a unicode string in Python 2 using literals, you have to prefix your string with the lowercase letter _'u'_: `u'Hello Unicode World'`. In Python 3 a simple string literal without any prefix will be, in contrast, a unicode string. If you want a bytes string, you should prefix it with a lowercase _'b'_ letter: `b'Hello bytes world'`. This sounds confusing, let's see a few examples. First, using Python 2:
 
